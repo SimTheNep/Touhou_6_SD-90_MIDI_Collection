@@ -23,7 +23,7 @@ The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Mo
 * **Hardware & Connectivity:** Features a 128 x 64 dot graphic LCD display. Includes 2 external MIDI inputs/outputs, independent S/PDIF optical and coaxial digital audio I/O, dual stereo analog output jack sets, a dedicated microphone/guitar high-impedance input, and a stereo headphone jack monitor.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/images/sd90.jpg" alt="Edirol SD-90 Studio Canvas" width="600"/><br>
+  <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/sd90.jpg" alt="Edirol SD-90 Studio Canvas" width="600"/><br>
   <em>The Edirol SD-90 Studio Canvas unit used for the project</em>
 </p>
 
@@ -55,7 +55,7 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 ## Soundtrack & Track List
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/images/th06_cover.png" alt="The Embodiment of Scarlet Devil Cover" width="350"/>
+  <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/Th06cover.jpg" alt="The Embodiment of Scarlet Devil Cover" width="350"/>
 </p>
 
 ### Main Game Tracks
