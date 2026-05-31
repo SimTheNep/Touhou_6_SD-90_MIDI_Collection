@@ -46,9 +46,7 @@ To achieve an authentic recreation of the tracks, the following programs were us
 
 For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by_product/sd-90/updates_drivers/), [here's a link to a tutorial on how to install them.](https://www.youtube.com/watch?v=-2aSb4q2Kvw)
 
----
-
-## MIDI/Audio Specifications
+### MIDI/Audio Specifications
 
 * **MIDI/Audio Input/Output method:** USB (I don't have a MIDI interface and my audio interface is mono).
 * **Audio resolution: 16-bit 44.1kHz .WAV (Same as EoSD's recordings)**
@@ -56,7 +54,7 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 * **MIDI Mode:** Native SD-90 Mode (Utilizing unique parameters not compatible with generic GS/GM2/XGlite modes).
 * **Data Header:** SysEx triggers initialized to prep the Studio Canvas engine before note playback begins.
 
-## System Exclusive (SysEx) Implementations
+### System Exclusive (SysEx) Implementations
 
 1.  **SD-80/SD-90 Editor Mappings:** TFA, TVF, and custom Multi-FX (MFX) and Audio-FX (AFX) routines are preset at tick `00:00:00`.
 2.  **Part Control Strings:** Assigns the appropriate instrument sets across the 16 MIDI playback channels.
