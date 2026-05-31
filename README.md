@@ -56,6 +56,15 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 * **MIDI Mode:** Native SD-90 Mode (Utilizing unique parameters not compatible with generic GS/GM2/XGlite modes).
 * **Data Header:** SysEx triggers initialized to prep the Studio Canvas engine before note playback begins.
 
+## System Exclusive (SysEx) Implementations
+
+1.  **SD-80/SD-90 Editor Mappings:** TFA, TVF, and custom Multi-FX (MFX) and Audio-FX (AFX) routines are preset at tick `00:00:00`.
+2.  **Part Control Strings:** Assigns the appropriate instrument sets across the 16 MIDI playback channels.
+
+### Playback Requirements
+For authentic rendering, it is highly recommended to stream these files out to an **actual physical Edirol SD-90 unit** via a software sequencer capable of raw SysEx processing (such as **Sekaiju** or **MIDITrail**). Soft-synths (like VirtualMIDISynth or generic Windows GS Wavetable) will not execute the embedded patch variations or hardware filtering commands properly.
+These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX processing unit**, the sound will be much different.
+
 ---
 
 ## Soundtrack & Track List
@@ -66,41 +75,30 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 
 ### Main Game Tracks
 
-| # | Title / Localization | Tuning |
-| :--- | :--- | :---: |
-| **01** | `赤より紅い夢  - A Dream more Scarlet than Red` | 440Hz |
-| **02** | `ほおずきみたいに紅い魂  - A Soul as Scarlet as a Ground Cherry` | 432Hz |
-| **03** | `妖魔夜行  - Apparitions Stalk the Night` | 452Hz |
-| **04** | `ルーネイトエルフ  - Lunate Elf` | 440Hz |
-| **05** | `おてんば恋娘  - Beloved Tomboyish Daughter` | 446Hz |
-| **06** | `上海紅茶館 ～ Chinese Tea  - Shanghai Teahouse ~ Chinese Tea` | 443Hz |
-| **07** | `明治十七年の上海アリス  - Shanghai Alice of Meiji 17` | 428Hz |
-| **08** | `ヴワル魔法図書館  - Voile, the Magic Library` | 452Hz |
-| **09** | `ラクトガール ～ 少女密室  - Locked Girl ~ The Girl's Secret Room` | 452Hz |
-| **10** | `メイドと血の懐中時計  - The Maid and the Pocket Watch of Blood` | 452Hz |
-| **11** | `月時計 ～ ルナ・ダイアル  - Lunar Clock ~ Luna Dial` | 450Hz |
-| **12** | `ツェペシュの幼き末裔  - The Young Descendant of Tepes` | 446Hz |
-| **13** | `亡き王女の為のセプテット  - Septette for the Dead Princess` | 452Hz |
+| # | Title / Localization | Tuning | Files |
+| :--- | :--- | :---: | :---: |
+| **01** | `赤より紅い夢  - A Dream more Scarlet than Red` | 440Hz | [MIDI](./MIDIs/th06_01-SD90_440Hz.mid) / [WAV](./WAVs/th06_01-SD90_440Hz.wav) |
+| **02** | `ほおずきみたいに紅い魂  - A Soul as Scarlet as a Ground Cherry` | 432Hz | [MIDI](./MIDIs/th06_02-SD90_432Hz.mid) / [WAV](./WAVs/th06_02-SD90_432Hz.wav) |
+| **03** | `妖魔夜行  - Apparitions Stalk the Night` | 452Hz | [MIDI](./MIDIs/th06_03-SD90_452Hz.mid) / [WAV](./WAVs/th06_03-SD90_452Hz.wav) |
+| **04** | `ルーネイトエルフ  - Lunate Elf` | 440Hz | [MIDI](./MIDIs/th06_04-SD90_440Hz.mid) / [WAV](./WAVs/th06_04-SD90_440Hz.wav) |
+| **05** | `おてんば恋娘  - Beloved Tomboyish Daughter` | 446Hz | [MIDI](./MIDIs/th06_05-SD90_446Hz.mid) / [WAV](./WAVs/th06_05-SD90_446Hz.wav) |
+| **06** | `上海紅茶館 ～ Chinese Tea  - Shanghai Teahouse ~ Chinese Tea` | 443Hz | [MIDI](./MIDIs/th06_06-SD90_443Hz.mid) / [WAV](./WAVs/th06_06-SD90_443Hz.wav) |
+| **07** | `明治十七年の上海アリス  - Shanghai Alice of Meiji 17` | 428Hz | [MIDI](./MIDIs/th06_07-SD90_428Hz.mid) / [WAV](./WAVs/th06_07-SD90_428Hz.wav) |
+| **08** | `ヴワル魔法図書館  - Voile, the Magic Library` | 452Hz | [MIDI](./MIDIs/th06_08-SD90_452Hz.mid) / [WAV](./WAVs/th06_08-SD90_452Hz.wav) |
+| **09** | `ラクトガール ～ 少女密室  - Locked Girl ~ The Girl's Secret Room` | 452Hz | [MIDI](./MIDIs/th06_09-SD90_452Hz.mid) / [WAV](./WAVs/th06_09-SD90_452Hz.wav) |
+| **10** | `メイドと血の懐中時計  - The Maid and the Pocket Watch of Blood` | 452Hz | [MIDI](./MIDIs/th06_10-SD90_452Hz.mid) / [WAV](./WAVs/th06_10-SD90_452Hz.wav) |
+| **11** | `月時計 ～ ルナ・ダイアル  - Lunar Clock ~ Luna Dial` | 450Hz | [MIDI](./MIDIs/th06_11-SD90_450Hz.mid) / [WAV](./WAVs/th06_11-SD90_450Hz.wav) |
+| **12** | `ツェペシュの幼き末裔  - The Young Descendant of Tepes` | 446Hz | [MIDI](./MIDIs/th06_12-SD90_446Hz.mid) / [WAV](./WAVs/th06_12-SD90_446Hz.wav) |
+| **13** | `亡き王女の為のセプテット  - Septette for the Dead Princess` | 452Hz | [MIDI](./MIDIs/th06_13-SD90_452Hz.mid) / [WAV](./WAVs/th06_13-SD90_452Hz.wav) |
 
 ### Extra Stage & Post-Game Tracks
 
-| # | Title / Localization / Arranger | Tuning |
-| :--- | :--- | :---: |
-| **14** | `魔法少女達の百年祭  - The Centennial Festival for Magical Girls` | 440Hz |
-| **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz |
-| **16** | `紅より儚い永遠  - An Eternity More Transient Than Scarlet` | 446Hz |
-| **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz |
-
----
-
-## System Exclusive (SysEx) Implementations
-
-1.  **SD-80/SD-90 Editor Mappings:** TFA, TVF, and custom Multi-FX (MFX) and Audio-FX (AFX) routines are preset at tick `00:00:00`.
-2.  **Part Control Strings:** Assigns the appropriate instrument sets across the 16 MIDI playback channels.
-
-### Playback Requirements
-For authentic rendering, it is highly recommended to stream these files out to an **actual physical Edirol SD-90 unit** via a software sequencer capable of raw SysEx processing (such as **Sekaiju** or **MIDITrail**). Soft-synths (like VirtualMIDISynth or generic Windows GS Wavetable) will not execute the embedded patch variations or hardware filtering commands properly.
-These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX processing unit**, the sound will be much different.
+| # | Title / Localization / Arranger | Tuning | Files |
+| :--- | :--- | :---: | :---: |
+| **14** | `魔法少女達の百年祭  - The Centennial Festival for Magical Girls` | 440Hz | [MIDI](./MIDIs/th06_14-SD90_440Hz.mid) / [WAV](./WAVs/th06_14-SD90_440Hz.wav) |
+| **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz | [MIDI](./MIDIs/th06_15-SD90_428Hz.mid) / [WAV](./WAVs/th06_15-SD90_428Hz.wav) |
+| **16** | `紅より儚い永遠  - An Eternity More Transient Than Scarlet` | 446Hz | [MIDI](./MIDIs/th06_16-SD90_446Hz.mid) / [WAV](./WAVs/th06_16-SD90_446Hz.wav) |
+| **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.mid) / [WAV](./WAVs/th06_17-SD90_452Hz.wav) |
 
 ---
 
