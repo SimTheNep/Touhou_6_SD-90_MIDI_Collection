@@ -40,8 +40,8 @@ The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Mo
 
 To achieve an authentic recreation of the tracks, the following programs were used:
 
-* **Sequencing & Composition:** Primary sequencing and control change (CC) was carried out within [FL Studio](https://www.image-line.com/fl-studio/) based on ZUN's **SC-88Pro** MIDIs.
-* **Low-Level MIDI Editing:** Raw SysEx structure and meta-event management were configured via [Sekaiju (世界樹)](https://openmidiproject.osdn.jp/Sekaiju_en.html).
+* **Sequencing & Composition:** Sequencing and control change (CC) was carried out within [FL Studio](https://www.image-line.com/fl-studio/) based on ZUN's **SC-88Pro** MIDIs.
+* **Low-Level MIDI Editing:** SysEx structure was configured via [Sekaiju (世界樹)](https://openmidiproject.osdn.jp/Sekaiju_en.html).
 * **SysEx Integration:** Native parameter configurations variables were injected directly using the hexadecimal code exported from the [Edirol SD-80 Editor](https://www.cosmosmusic.com/support/download_read.php?no=9772) and [Edirol SD-90 Editor](https://sd-90-editor.software.informer.com/).
 * **Audio Mastering & Demos:** Demo audio captures from the SD-90 outputs were compiled and mastered using [**Sonic Foundry Sound Forge**](https://en.wikipedia.org/wiki/Sound_Forge), the exact audio editing software used by ZUN for rendering the original game soundtracks (batch normalization done in Audacity).
 
