@@ -119,7 +119,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 
 ### Extra Stage
 
-| # | Title / Localization / Arranger | Tuning | Project Files | Editor Files |
+| # | Title / Localization | Tuning | Project Files | Editor Files |
 | :--- | :--- | :---: | :---: | :---: |
 | **14** | `魔法少女達の百年祭  - The Centennial Festival for Magical Girls` | 440Hz | [MIDI](./MIDIs/th06_14-SD90_440Hz.mid) / [WAV](./WAVs/th06_14-SD90_440Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/14) |
 | **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz | [MIDI](./MIDIs/th06_15-SD90_428Hz.mid) / [WAV](./WAVs/th06_15-SD90_428Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/15) |
