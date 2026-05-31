@@ -70,6 +70,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 <p align="center">
   <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/Th06cover.jpg" alt="The Embodiment of Scarlet Devil Cover" width="350"/>
 </p>
+
 | # | Title / Localization | Tuning | Project Files | Editor Files |
 | :--- | :--- | :---: | :---: | :---: |
 | **--** | Main Menu | ---- | ----/---- | ------ |
