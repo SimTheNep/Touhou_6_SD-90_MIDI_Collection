@@ -70,35 +70,34 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 <p align="center">
   <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/Th06cover.jpg" alt="The Embodiment of Scarlet Devil Cover" width="350"/>
 </p>
-
 | # | Title / Localization | Tuning | Project Files | Editor Files |
 | :--- | :--- | :---: | :---: | :---: |
 | **--** | Main Menu | ---- | ----/---- | ------ |
-| **01** | `赤より紅い夢  - A Dream more Scarlet than Red` | 440Hz | [MIDI](./MIDIs/th06_01-SD90_440Hz.mid) / [WAV](./WAVS/th06_01-SD90_440Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/01) |
+| **01** | `赤より紅い夢  - A Dream more Scarlet than Red` | 440Hz | [MIDI](./MIDIs/th06_01-SD90_440Hz.mid) <br> <audio src="./WAVS/th06_01-SD90_440Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/01) |
 | **--** | Stage 1 | ---- | ----/---- | ------ |
-| **02** | `ほおずきみたいに紅い魂  - A Soul as Scarlet as a Ground Cherry` | 432Hz | [MIDI](./MIDIs/th06_02-SD90_432Hz.mid) / [WAV](./WAVS/th06_02-SD90_432Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/02) |
-| **03** | `妖魔夜行  - Apparitions Stalk the Night` | 452Hz | [MIDI](./MIDIs/th06_03-SD90_452Hz.mid) / [WAV](./WAVS/th06_03-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/03) |
+| **02** | `ほおずきみたいに紅い魂  - A Soul as Scarlet as a Ground Cherry` | 432Hz | [MIDI](./MIDIs/th06_02-SD90_432Hz.mid) <br> <audio src="./WAVS/th06_02-SD90_432Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/02) |
+| **03** | `妖魔夜行  - Apparitions Stalk the Night` | 452Hz | [MIDI](./MIDIs/th06_03-SD90_452Hz.mid) <br> <audio src="./WAVS/th06_03-SD90_452Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/03) |
 | **--** | Stage 2 | ---- | ----/---- | ------ |
-| **04** | `ルーネイトエルフ  - Lunate Elf` | 440Hz | [MIDI](./MIDIs/th06_04-SD90_440Hz.mid) / [WAV](./WAVS/th06_04-SD90_440Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/04) |
-| **05** | `おてんば恋娘  - Beloved Tomboyish Daughter` | 446Hz | [MIDI](./MIDIs/th06_05-SD90_446Hz.mid) / [WAV](./WAVS/th06_05-SD90_446Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/05) |
+| **04** | `ルーネイトエルフ  - Lunate Elf` | 440Hz | [MIDI](./MIDIs/th06_04-SD90_440Hz.mid) <br> <audio src="./WAVS/th06_04-SD90_440Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/04) |
+| **05** | `おてんば恋娘  - Beloved Tomboyish Daughter` | 446Hz | [MIDI](./MIDIs/th06_05-SD90_446Hz.mid) <br> <audio src="./WAVS/th06_05-SD90_446Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/05) |
 | **--** | Stage 3 | ---- | ----/---- | ------ |
-| **06** | `上海紅茶館 ～ Chinese Tea  - Shanghai Teahouse ~ Chinese Tea` | 443Hz | [MIDI](./MIDIs/th06_06-SD90_443Hz.mid) / [WAV](./WAVS/th06_06-SD90_443Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/06) |
-| **07** | `明治十七年の上海アリス  - Shanghai Alice of Meiji 17` | 428Hz | [MIDI](./MIDIs/th06_07-SD90_428Hz.mid) / [WAV](./WAVS/th06_07-SD90_428Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/07) |
+| **06** | `上海紅茶館 ～ Chinese Tea  - Shanghai Teahouse ~ Chinese Tea` | 443Hz | [MIDI](./MIDIs/th06_06-SD90_443Hz.mid) <br> <audio src="./WAVS/th06_06-SD90_443Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/06) |
+| **07** | `明治十七年の上海アリス  - Shanghai Alice of Meiji 17` | 428Hz | [MIDI](./MIDIs/th06_07-SD90_428Hz.mid) <br> <audio src="./WAVS/th06_07-SD90_428Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/07) |
 | **--** | Stage 4 | ---- | ----/---- | ------ |
-| **08** | `ヴワル魔法図書館  - Voile, the Magic Library` | 452Hz | [MIDI](./MIDIs/th06_08-SD90_452Hz.mid) / [WAV](./WAVS/th06_08-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/08) |
-| **09** | `ラクトガール ～ 少女密室  - Locked Girl ~ The Girl's Secret Room` | 452Hz | [MIDI](./MIDIs/th06_09-SD90_452Hz.mid) / [WAV](./WAVS/th06_09-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/09) |
+| **08** | `ヴワル魔法図書館  - Voile, the Magic Library` | 452Hz | [MIDI](./MIDIs/th06_08-SD90_452Hz.mid) <br> <audio src="./WAVS/th06_08-SD90_452Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/08) |
+| **09** | `ラクトガール ～ 少女密室  - Locked Girl ~ The Girl's Secret Room` | 452Hz | [MIDI](./MIDIs/th06_09-SD90_452Hz.mid) <br> <audio src="./WAVS/th06_09-SD90_452Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/09) |
 | **--** | Stage 5 | ---- | ----/---- | ------ |
-| **10** | `メイドと血の懐中時計  - The Maid and the Pocket Watch of Blood` | 452Hz | [MIDI](./MIDIs/th06_10-SD90_452Hz.mid) / [WAV](./WAVS/th06_10-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/10) |
-| **11** | `月時計 ～ ルナ・ダイアル  - Lunar Clock ~ Luna Dial` | 450Hz | [MIDI](./MIDIs/th06_11-SD90_450Hz.mid) / [WAV](./WAVS/th06_11-SD90_450Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/11) |
+| **10** | `メイドと血の懐中時計  - The Maid and the Pocket Watch of Blood` | 452Hz | [MIDI](./MIDIs/th06_10-SD90_452Hz.mid) <br> <audio src="./WAVS/th06_10-SD90_452Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/10) |
+| **11** | `月時計 ～ ルナ・ダイアル  - Lunar Clock ~ Luna Dial` | 450Hz | [MIDI](./MIDIs/th06_11-SD90_450Hz.mid) <br> <audio src="./WAVS/th06_11-SD90_450Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/11) |
 | **--** | Stage 6 | ---- | ----/---- | ------ |
-| **12** | `ツェペシュの幼き末裔  - The Young Descendant of Tepes` | 446Hz | [MIDI](./MIDIs/th06_12-SD90_446Hz.mid) / [WAV](./WAVS/th06_12-SD90_446Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/12) |
-| **13** | `亡き王女の為のセプテット  - Septette for the Dead Princess` | 452Hz | [MIDI](./MIDIs/th06_13-SD90_452Hz.mid) / [WAV](./WAVS/th06_13-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/13) |
+| **12** | `ツェペシュの幼き末裔  - The Young Descendant of Tepes` | 446Hz | [MIDI](./MIDIs/th06_12-SD90_446Hz.mid) <br> <audio src="./WAVS/th06_12-SD90_446Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/12) |
+| **13** | `亡き王女の為のセプテット  - Septette for the Dead Princess` | 452Hz | [MIDI](./MIDIs/th06_13-SD90_452Hz.mid) <br> <audio src="./WAVS/th06_13-SD90_452Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/13) |
 | **--** | EX Stage | ---- | ----/---- | ------ |
-| **14** | `魔法少女達の百年祭  - The Centennial Festival for Magical Girls` | 440Hz | [MIDI](./MIDIs/th06_14-SD90_440Hz.mid) / [WAV](./WAVS/th06_14-SD90_440Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/14) |
-| **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz | [MIDI](./MIDIs/th06_15-SD90_428Hz.mid) / [WAV](./WAVS/th06_15-SD90_428Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/15) |
+| **14** | `魔法少女達の百年祭  - The Centennial Festival for Magical Girls` | 440Hz | [MIDI](./MIDIs/th06_14-SD90_440Hz.mid) <br> <audio src="./WAVS/th06_14-SD90_440Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/14) |
+| **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz | [MIDI](./MIDIs/th06_15-SD90_428Hz.mid) <br> <audio src="./WAVS/th06_15-SD90_428Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/15) |
 | **--** | Post-Game | ---- | ----/---- | ------ |
-| **16** | `紅より儚い永遠  - An Eternity More Transient Than Scarlet` | 446Hz | [MIDI](./MIDIs/th06_16-SD90_446Hz.mid) / [WAV](./WAVS/th06_16-SD90_446Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/16) |
-| **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.mid) / [WAV](./WAVS/th06_17-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/17) |
+| **16** | `紅より儚い永遠  - An Eternity More Transient Than Scarlet` | 446Hz | [MIDI](./MIDIs/th06_16-SD90_446Hz.mid) <br> <audio src="./WAVS/th06_16-SD90_446Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/16) |
+| **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.mid) <br> <audio src="./WAVS/th06_17-SD90_452Hz.wav" controls></audio> | [Folder](./SD-80%2690%20Editor%20Files/th06/17) |6_17-SD90_452Hz.mid) / [WAV](./WAVS/th06_17-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/17) |
 
 ---
 
