@@ -47,10 +47,9 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 
 ### MIDI/Audio Specifications
 
-* **MIDI/Audio Input/Output method:** USB (I don't have a MIDI interface and my audio interface is mono).
 * **Audio resolution: 16-bit 44.1kHz .WAV (Same as EoSD's recordings)**
 * **Master Tuning:** `Varied` (Unfortunately SysEx doesn't allow me to set it automatically).
-* **MIDI Mode:** Native SD-90 Mode (Utilizing unique parameters not compatible with generic GS/GM2/XGlite modes).
+* **MIDI Mode:** Native SD-90 USB Audio Mode (Utilizing unique parameters not compatible with generic GS/GM2/XGlite modes).
 * **Data Header:** SysEx triggers initialized to prep the Studio Canvas engine before note playback begins.
 
 ### System Exclusive (SysEx) Implementations
