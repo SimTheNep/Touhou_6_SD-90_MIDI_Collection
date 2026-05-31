@@ -1,4 +1,4 @@
-# Touhou 6: The Embodiment of Scarlet Devil — Edirol SD-90 Native MIDI Project
+# Touhou 6: The Embodiment of Scarlet Devil - Edirol SD-90 Native MIDI Project
 
 [![Project Status: WIP](https://img.shields.io/badge/Status-Work%20In%20Progress-orange.svg)](#disclaimer)
 
