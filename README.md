@@ -16,8 +16,6 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 * **WAV Recordings**
 
 
----
-
 ## Hardware Context
 
 The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Module released in 2001. After November 25th 2001 (date of purchase), it became the foundation of ZUN's initial Windows-era arrangement style.
@@ -31,8 +29,6 @@ The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Mo
   <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/sd90.jpg" alt="Edirol SD-90 Studio Canvas" width="600"/><br>
   <em>The Edirol SD-90 Studio Canvas unit used for the project</em>
 </p>
-
----
 
 ## Production Environment & Workflow
 
@@ -61,8 +57,6 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 ### Playback Requirements
 For authentic rendering, it is highly recommended to stream these files out to an **actual physical Edirol SD-90 unit** via a software sequencer capable of raw SysEx processing (such as **Sekaiju** or **MIDITrail**). Soft-synths (like VirtualMIDISynth or generic Windows GS Wavetable) will not execute the embedded patch variations or hardware filtering commands properly.
 These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX processing unit**, the sound will be much different.
-
----
 
 ## Soundtrack & Track List
 
@@ -96,8 +90,6 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 | **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz | [MIDI](./MIDIs/th06_15-SD90_428Hz.mid) / [WAV](./WAVs/th06_15-SD90_428Hz.wav) |
 | **16** | `紅より儚い永遠  - An Eternity More Transient Than Scarlet` | 446Hz | [MIDI](./MIDIs/th06_16-SD90_446Hz.mid) / [WAV](./WAVs/th06_16-SD90_446Hz.wav) |
 | **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.mid) / [WAV](./WAVs/th06_17-SD90_452Hz.wav) |
-
----
 
 ## Contributing & Bug Reports
 
