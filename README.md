@@ -94,7 +94,7 @@ For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by
 
 ### Playback Requirements
 For authentic rendering, it is highly recommended to stream these files out to an **actual physical Edirol SD-90 unit** via a software sequencer capable of raw SysEx processing (such as **Sekaiju** or **MIDITrail**). Soft-synths (like VirtualMIDISynth or generic Windows GS Wavetable) will not execute the embedded patch variations or hardware filtering commands properly.
-These MIDIs work on the Edirol SD-80 in theory, but since it has no AFX processing unit, the sound will be much different.
+These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX processing unit**, the sound will be much different.
 
 ---
 
