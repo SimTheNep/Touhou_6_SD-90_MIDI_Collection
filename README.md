@@ -4,11 +4,13 @@
 
 A comprehensive project dedicated to delivering hardware-native MIDI files for the entire **Touhou 6: The Embodiment of Scarlet Devil (東方紅魔郷)** soundtrack. These sequences were created specifically to recreate the tracks for study in partnership with the [Touhou Sound Sources Sheet](tinyurl.com/TouhouSheet), all compositional rights go to Team Shanghai Alice.
 
+### [YouTube Demo]()
+
 ---
 
 ## ⚠️ Disclaimer ⚠️
 
-> **WORK IN PROGRESS (WIP):** This repository is an active, ongoing music recreation project. The MIDI files, System Exclusive (SysEx) dumps, and parameter mappings are subject to frequent changes as new discoveries are made. These arranges were made by ear so the mastering isn't perfect and there are some tracks more inaccurate than others, be patient.
+> **WORK IN PROGRESS (WIP):** This repository is an active, ongoing music recreation project. The MIDI files, System Exclusive (SysEx) dumps, and parameter mappings are subject to frequent changes as new discoveries are made. These arranges were made by ear so the mastering isn't perfect and there are some sections that are more inaccurate than others, be patient.
 
 ### This project includes...
 * SD-90/SD-80 Editor Files
