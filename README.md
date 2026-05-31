@@ -6,9 +6,15 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 
 ---
 
-## ! Disclaimer
+## ! Disclaimer !
 
 > **WORK IN PROGRESS (WIP):** This repository is an active, ongoing music recreation project. The MIDI files, System Exclusive (SysEx) dumps, and parameter mappings are subject to frequent changes as new discoveries are made. These arranges were made by ear, be patient.
+
+### This project includes...
+* **SD-90/SD-80 Editor Files**
+* **MIDI Files**
+* **WAV Recordings**
+
 
 ---
 
