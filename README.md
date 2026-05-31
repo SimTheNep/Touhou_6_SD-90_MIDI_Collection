@@ -41,7 +41,7 @@ To achieve an authentic recreation of the tracks, the following programs were us
 * **Sequencing & Composition:** Primary sequencing and control change (CC) was carried out within [FL Studio](https://www.image-line.com/fl-studio/) based on ZUN's **SC-88Pro** MIDIs.
 * **Low-Level MIDI Editing:** Raw SysEx structure and meta-event management were configured via [Sekaiju (世界樹)](https://openmidiproject.osdn.jp/Sekaiju_en.html).
 * **SysEx Integration:** Native parameter configurations variables were injected directly using the hexadecimal code exported from the [Edirol SD-80 Editor](https://www.cosmosmusic.com/support/download_read.php?no=9772) and [Edirol SD-90 Editor](https://sd-90-editor.software.informer.com/).
-* **Audio Mastering & Demos:** Demo audio captures from the SD-90 outputs were compiled and mastered using [**Sonic Foundry Sound Forge**](https://en.wikipedia.org/wiki/Sound_Forge), the exact audio editing software used by ZUN for rendering the original game soundtracks.
+* **Audio Mastering & Demos:** Demo audio captures from the SD-90 outputs were compiled and mastered using [**Sonic Foundry Sound Forge**](https://en.wikipedia.org/wiki/Sound_Forge), the exact audio editing software used by ZUN for rendering the original game soundtracks (batch normalization done in Audacity).
 
 For those requiring the [SD-90 drivers](https://www.roland.com/global/support/by_product/sd-90/updates_drivers/), [here's a link to a tutorial on how to install them.](https://www.youtube.com/watch?v=-2aSb4q2Kvw)
 
