@@ -22,7 +22,6 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 
 The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Module released in 2001. After November 25th 2001 (date of purchase), it became the foundation of ZUN's initial Windows-era arrangement style.
 
-### Technical Profile
 * **Audio Processing:** Features 24-bit AD/DA signal processing with a supported 44.1 kHz / 48 kHz sampling rate. The integrated USB audio streaming interface operates at 16/24-bit resolution across 2 stereo inputs and 2 stereo outputs.
 * **Synthesis Engine:** A 32-part multi-timbral sound module utilizing 1,050 preset sounds and 30 drum sets, with 128-voice maximum polyphony structure.
 * **Onboard Effects System:** Hardware effects include standard global System Effects consisting of 6 reverb types and 6 chorus types, alongside dedicated multi-effects (9 types available across 3 hardware insertion multi-effect chains).
