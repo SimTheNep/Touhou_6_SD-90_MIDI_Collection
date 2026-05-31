@@ -6,7 +6,7 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 
 ---
 
-## ! Disclaimer !
+## ⚠️ Disclaimer ⚠️
 
 > **WORK IN PROGRESS (WIP):** This repository is an active, ongoing music recreation project. The MIDI files, System Exclusive (SysEx) dumps, and parameter mappings are subject to frequent changes as new discoveries are made. These arranges were made by ear, be patient.
 
@@ -18,7 +18,7 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 
 ---
 
-## Hardware Context
+## 🎹 Hardware Context
 
 The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Module released in 2001. After November 25th 2001 (date of purchase), it became the foundation of ZUN's initial Windows-era arrangement style.
 
@@ -34,7 +34,7 @@ The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Mo
 
 ---
 
-## Production Environment & Workflow
+## 🎛️ Workflow
 
 To achieve an authentic recreation of the tracks, the following programs were used:
 
@@ -63,7 +63,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 
 ---
 
-## Soundtrack & Track List
+## 🎵 Soundtrack & Track List
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/Th06cover.jpg" alt="The Embodiment of Scarlet Devil Cover" width="350"/>
@@ -133,7 +133,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 
 ---
 
-## Contributing & Bug Reports
+## 🙇‍♀️ Contributing & Bug Reports
 
 Since these arrangements are actively being developed:
 * If you discover a new finding or patch map, an unassigned channel allocation, or have a better reproduction of the parameters, please open an **Issue** outlining the track title and timestamp.
