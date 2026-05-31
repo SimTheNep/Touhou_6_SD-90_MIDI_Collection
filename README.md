@@ -98,7 +98,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 | **15** | `U.N.オーエンは彼女なのか？  - U.N. Owen Was Her?` | 428Hz | [MIDI](./MIDIs/th06_15-SD90_428Hz.mid) / [WAV](./WAVS/th06_15-SD90_428Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/15) |
 | **--** | Post-Game | ---- | ----/---- | ------ |
 | **16** | `紅より儚い永遠  - An Eternity More Transient Than Scarlet` | 446Hz | [MIDI](./MIDIs/th06_16-SD90_446Hz.mid) / [WAV](./WAVS/th06_16-SD90_446Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/16) |
-| **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.m
+| **17** | `紅楼 ～ Eastern Dream  - Crimson Tower ~ Eastern Dream` | 452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.mid) / [WAV](./WAVS/th06_17-SD90_452Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/17) |
 
 ---
 
