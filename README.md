@@ -70,7 +70,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 <p align="center">
   <img src="https://raw.githubusercontent.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/main/Th06cover.jpg" alt="The Embodiment of Scarlet Devil Cover" width="350"/>
 </p>
- | # | Title / Localization | Tuning | Project Files | Editor Files |
+| # | Title / Localization | Tuning | Project Files | Editor Files |
 | :--- | :--- | :---: | :---: | :---: |
 | **--** | Main Menu | ---- | ----/---- | ------ |
 | **01** | `赤より紅い夢  - A Dream more Scarlet than Red` | 440Hz | [MIDI](./MIDIs/th06_01-SD90_440Hz.mid) / [WAV](./WAVS/th06_01-SD90_440Hz.wav) | [Folder](./SD-80%2690%20Editor%20Files/th06/01) |
