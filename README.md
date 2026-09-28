@@ -6,8 +6,6 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 
 ### [YouTube Demo](https://www.youtube.com/watch?v=3Bd5__hFrOY)
 
----
-
 ## ⚠️ Disclaimer ⚠️
 
 > **WORK IN PROGRESS (WIP):** This repository is an active, ongoing music recreation project. The MIDI files, System Exclusive (SysEx) dumps, and parameter mappings are subject to frequent changes as new discoveries are made. These arranges were made by ear so the mastering isn't perfect and there are some sections that are more inaccurate than others, be patient.
@@ -15,9 +13,6 @@ A comprehensive project dedicated to delivering hardware-native MIDI files for t
 ### This project includes...
 * MIDI Files
 * WAV Recordings
-
-
----
 
 ## 🎹 Hardware Context
 
@@ -33,13 +28,9 @@ The **Edirol / Roland SD-90** is a Desktop USB Audio Interface and MIDI Sound Mo
   <em>The Edirol SD-90 Studio Canvas unit used for the project</em>
 </p>
 
----
-
 ### Playback Requirements
 For authentic rendering, it is highly recommended to stream these files out to an **actual physical Edirol SD-90 unit** via a software sequencer capable of raw SysEx processing (such as **Sekaiju** or **MIDITrail**). Soft-synths (like VirtualMIDISynth or generic Windows GS Wavetable) will not execute the embedded patch variations or hardware filtering commands properly.
 These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX processing unit**, the sound will be much different.
-
----
 
 ## 🎵 Soundtrack & Track List
 
@@ -75,9 +66,6 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 | **--** | **Post-Game**                                           |  ----  | ----/----                                                                     |
 | **16** | `紅より儚い永遠 - An Eternity More Transient Than Scarlet`     |  446Hz | [MIDI](./MIDIs/th06_16-SD90_446Hz.mid) / [WAV](./WAVS/th06_16-SD90_446Hz.wav) |
 | **17** | `紅楼 ～ Eastern Dream - Crimson Tower ~ Eastern Dream`    |  452Hz | [MIDI](./MIDIs/th06_17-SD90_452Hz.mid) / [WAV](./WAVS/th06_17-SD90_452Hz.wav) |
-
-
----
 
 ## 🙇‍♀️ Contributing & Bug Reports
 
