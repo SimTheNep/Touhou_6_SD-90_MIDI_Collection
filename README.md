@@ -55,7 +55,7 @@ These MIDIs work on the **Edirol SD-80** in theory, but since it has **no AFX pr
 | **11** | `月時計 ～ ルナ・ダイアル - Lunar Clock ~ Luna Dial`               |  450Hz | [MIDI](./MIDIs/th06_11-SD90_450Hz.mid) / [WAV](./WAVS/th06_11-SD90_450Hz.wav) |
 | **--** | **Stage 6**                                             |  ----  | ----/----                                                                     |
 | **12** | `ツェペシュの幼き末裔 - The Young Descendant of Tepes`            |  446Hz | [MIDI](./MIDIs/th06_12-SD90_446Hz.mid) / [WAV](./WAVS/th06_12-SD90_446Hz.wav) |
-| **13** | `亡き王女の為のセプテット - Septette for the Dead Princess`         |  452Hz | [MIDI](./MIDIs/th06_13-SD90_452Hz.mid) / [WAV](./WAVS/th06_13-SD90_452Hz.wav) |
+| **13** | `亡き王女の為のセプテット - Septette for the Dead Princess`         |  452Hz | [MIDI](./MIDIs/th06_13-SD90_452Hz.mid) / [WAV](./WAVS/th06_13-SD90.wav) |
 | **--** | **EX Stage**                                            |  ----  | ----/----                                                                     |
 | **14** | `魔法少女達の百年祭 - The Centennial Festival for Magical Girls` |  440Hz | [MIDI](./MIDIs/th06_14-SD90_440Hz.mid) / [WAV](./WAVS/th06_14-SD90_440Hz.wav) |
 | **15** | `U.N.オーエンは彼女なのか？ - U.N. Owen Was Her?`                  |  428Hz | [MIDI](./MIDIs/th06_15-SD90.mid) / [WAV](./WAVS/th06_15-SD90.wav)             |
