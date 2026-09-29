@@ -10,7 +10,8 @@
     --text: #e6e2b4;
     --intro: #dec378;
     --link: #f0ecc0;
-    --head: #dcf2d2;
+    --head: #a7e0c5;
+    --pressedlink: #afafea;
 }
 
 * {
@@ -33,6 +34,10 @@ body {
 
 a {
     color: var(--link);
+}
+
+a:visited {
+    color: var(--pressedlink);
 }
 
 img {
@@ -62,14 +67,20 @@ img {
 
 
 .logo2 {
-    width: 260px;
+    width: 200px;
     height: 150px;
-    background: var(--img-logo2) no-repeat left top / contain;
+    background: var(--img-logo2) no-repeat center / cover;
+}
+
+.logo,
+.logo2 {
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .intro {
     position: absolute;
-    left: 400px;
+    left: 650px;
     top: 58px;
     color: var(--intro);
     font-size: 12px;
@@ -119,6 +130,7 @@ main {
 
 .divider.red {
     background-image: var(--img-div-red);
+    color: var(--link);
 }
 
 .divider.thin {
@@ -144,7 +156,7 @@ main>.section:first-child {
 
 .track {
     display: grid;
-    grid-template-columns: 30px 190px 518px 1fr 170px;
+    grid-template-columns: 80px 170px 500px 1fr 270px;
     align-items: center;
     min-height: 20px;
     font-size: 15px;
@@ -177,6 +189,7 @@ main>.section:first-child {
     border: 0;
     cursor: pointer;
     background: var(--img-play) center / contain no-repeat transparent;
+    margin-left: 50px; 
 }
 
 .play:hover,
@@ -188,8 +201,9 @@ main>.section:first-child {
     filter: sepia(1) saturate(4) hue-rotate(-10deg) brightness(1.2);
 }
 
-.friend {
-    margin: 3px 0 0 220px;
+.extra {
+    text-align: center;
+    margin: 3px 0 0 3px;
     font-size: 15px;
 }
 
@@ -223,7 +237,7 @@ main>.section:first-child {
         text-align: left;
     }
 
-    .friend {
+    .extra {
         margin-left: 0;
     }
 
