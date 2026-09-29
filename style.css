@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap");
+
+/* ASSETS */
+:root {
+    --img-logo: url("Images/Th06cover.jpg");
+    --img-logo2: url("Images/Th06announce.jpg");
+    --img-div-red: url("Images/mbk00r.GIF");
+    --img-div-teal: url("Images/mbk00c.GIF");
+    --img-play: url("Images/play00.GIF");
+    --text: #e6e2b4;
+    --intro: #dec378;
+    --link: #f0ecc0;
+    --head: #dcf2d2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background: #000;
+}
+
+body {
+    color: var(--text);
+    font: 13px/1.3 "Noto Sans JP", "Noto Sans CJK JP", "MS PGothic", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    letter-spacing: 0;
+    text-rendering: geometricPrecision;
+    padding: 8px;
+}
+
+a {
+    color: var(--link);
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* HEADER */
+.head {
+    position: relative;
+    max-width: 1200px;
+    height: 165px;
+    margin-left: 30px;
+}
+
+.logos {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background: var(--img-logo) no-repeat left top / contain;
+    overflow: hidden;
+}
+
+
+.logo2 {
+    width: 260px;
+    height: 150px;
+    background: var(--img-logo2) no-repeat left top / contain;
+}
+
+.intro {
+    position: absolute;
+    left: 400px;
+    top: 58px;
+    color: var(--intro);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.howto {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 60px;
+    color: var(--head);
+}
+
+.howto img {
+    height: 18px;
+}
+
+.howto .badge-row img {
+    height: 24px;
+    margin: 0 4px 0 6px;
+}
+
+/* CONTENT */
+main {
+    max-width: 1715px;
+    margin: 0 0 0 95px;
+}
+
+/* BANNERS */
+.divider {
+    height: 42px;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 0px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    background-image: var(--img-div-teal);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: auto;
+    color: var(--head);
+}
+
+.divider.red {
+    background-image: var(--img-div-red);
+}
+
+.divider.thin {
+    font-size: 15px;
+    height: 22px;
+}
+
+.section {
+    margin-bottom: 72px;
+}
+
+main>.section:first-child {
+    margin-bottom: 48px;
+}
+
+/* TRACKS */
+.note {
+    margin: 0 0 0 220px;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--head);
+}
+
+.track {
+    display: grid;
+    grid-template-columns: 30px 190px 518px 1fr 170px;
+    align-items: center;
+    min-height: 20px;
+    font-size: 15px;
+    color: var(--head);
+}
+
+.track.tall {
+    min-height: 27px;
+}
+
+.track .size {
+    text-align: right;
+    padding-right: 92px;
+}
+
+.track .hw {
+    display: flex;
+    gap: 8px;
+}
+
+.track .hw img {
+    height: 22px;
+}
+
+/* PLAY */
+.play {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    background: var(--img-play) center / contain no-repeat transparent;
+}
+
+.play:hover,
+.play:focus-visible {
+    filter: brightness(1.4);
+}
+
+.play.on {
+    filter: sepia(1) saturate(4) hue-rotate(-10deg) brightness(1.2);
+}
+
+.friend {
+    margin: 3px 0 0 220px;
+    font-size: 15px;
+}
+
+@media (max-width: 900px) {
+
+    .head,
+    main {
+        margin-left: 0;
+    }
+
+    .intro {
+        position: static;
+        margin-top: 8px;
+    }
+
+    .head {
+        height: auto;
+    }
+
+    .track {
+        grid-template-columns: 24px 1fr;
+        row-gap: 2px;
+        padding: 4px 0;
+    }
+
+    .track .desc,
+    .track .hw,
+    .track .size {
+        grid-column: 2;
+        padding: 0;
+        text-align: left;
+    }
+
+    .friend {
+        margin-left: 0;
+    }
+
+    .note {
+        margin-left: 0;
+    }
+}
+
+
+/* LANGUAGE */
+.lang {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    z-index: 10;
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-size: 12px;
+    color: var(--intro);
+    cursor: pointer;
+}
+
+.lang span {
+    opacity: 0.55;
+}
+
+.lang span.active {
+    opacity: 1;
+    color: var(--link);
+    text-decoration: underline;
+}
+
+.lang::after {
+    content: attr(data-tip);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 4px;
+    padding: 3px 6px;
+    white-space: pre;
+    background: #000;
+    border: 1px solid var(--intro);
+    color: var(--link);
+    font-size: 11px;
+    opacity: 0;
+    pointer-events: none;
+    text-align: left;
+}
+
+.lang:hover::after,
+.lang:focus-visible::after {
+    opacity: 1;
+}
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Touhou 6 MIDI Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button class="lang" id="lang-toggle" type="button" aria-label="Language / 言語"
+        data-tip="Switch language / 言語を切り替え"><span data-l="en">EN</span> / <span data-l="ja">日本語</span></button>
+
+    <header class="head">
+        <div class="logos">
+            <h1 class="logo" style="margin:0"></h1>
+            <div class="logo2" aria-hidden="true"></div>
+        </div>
+        <p class="intro" data-ja-key="intro">
+            Welcome! This repository hosts MIDI arrangements of every track from Touhou 6 (東方紅魔郷).<br>
+            Each one has been recreated both by ear and via spectrogram for study, eventual SC-88Pro arranges might be
+            added.<br>
+            Please listen and download freely.<br>
+            All compositional rights belong to Team Shanghai Alice.<br>
+            Bug reports and better reproductions are welcome on GitHub.
+        </p>
+    </header>
+
+    <p class="howto" data-ja-key="howto">
+        About this page<br>
+        Click the <img src="Images/play00.GIF" alt="▶"> at the start of a row to play that track
+        <br>
+        Click a track name to download its MIDI
+        <br>
+        Recorded at 44.1Khz 16-bit WAV via SD-90 USB audio, mastered in SonicFoundry SoundForge to -14dB LUFS
+        <br>
+        Sequenced in Domino MIDI editor with a rough basis on the SC-88Pro soundtrack MIDIs<br>
+        <br>
+        <span class="badge-row">
+            <img src="Images/sd90.png" alt="SD-90">MIDI made for the SD-90
+            <img src="Images/88pro.png" alt="88Pro">MIDI made for the SC-88Pro
+        </span><br>
+        On other sound sources the sound will not be as intended (e.g. Microsoft GS Wavetable)<br>
+        The SD-80 works in theory, but it has no AFX unit, so it sounds quite different
+    </p>
+
+    <main>
+
+        <section class="section">
+            <h2 class="divider thin" data-ja="☆ 制作中です。手作業で作ったため、粗い部分はご容赦ください ☆">☆ Work in progress. These were done by
+                hand, so please be patient with the rough
+                spots
+                ☆</h2>
+            <p class="friend"><a href="https://www.youtube.com/watch?v=3Bd5__hFrOY" data-ja="YouTube デモ（初回リリース）">YouTube
+                    Demo (Initial
+                    Release)</a> <a href="https://tinyurl.com/TouhouSheet" data-ja="東方 音源シート">Touhou Sound Sources
+                    Sheet</a></p>
+        </section>
+
+        <section class="section">
+            <h2 class="divider red" data-ja="☆ 東方紅魔郷 再現MIDI ☆">☆ Embodiment of Scarlet Devil Recreations ☆</h2>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_01-SD90_440Hz.wav" aria-label="Play"></button>
+                <span>01 2026/05/31</span>
+                <a href="MIDIs/th06_01-SD90_440Hz.mid" data-ja="【 赤より紅い夢 】">【 A Dream more Scarlet than Red 】</a>
+                <span class="desc" data-ja="タイトル画面">Main Menu Theme</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_02-SD90_432Hz.wav" aria-label="Play"></button>
+                <span>02 2026/05/31</span>
+                <a href="MIDIs/th06_02-SD90_432Hz.mid" data-ja="【 ほおずきみたいに紅い魂 】">【 A Soul as Scarlet as a Ground Cherry
+                    】</a>
+                <span class="desc" data-ja="夢幻夜行絵巻 ～ Mystic Flier">Scroll of the Fantasy Night ～ Mystic Flier</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_03-SD90_452Hz.wav" aria-label="Play"></button>
+                <span>03 2026/05/31</span>
+                <a href="MIDIs/th06_03-SD90_452Hz.mid" data-ja="【 妖魔夜行 】">【 Apparitions Stalk the Night 】</a>
+                <span class="desc" data-ja="宵闇の妖怪">Youkai of the Dusk </span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_04-SD90_440Hz.wav" aria-label="Play"></button>
+                <span>04 2026/05/31</span>
+                <a href="MIDIs/th06_04-SD90_440Hz.mid" data-ja="【 ルーネイトエルフ 】">【 Lunate Elf 】</a>
+                <span class="desc" data-ja="湖上の魔精 ～ Water Magus">Lake Elf ～ Water Magus</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_05-SD90_446Hz.wav" aria-label="Play"></button>
+                <span>05 2026/05/31</span>
+                <a href="MIDIs/th06_05-SD90_446Hz.mid" data-ja="【 おてんば恋娘 】">【 Beloved Tomboyish Daughter 】</a>
+                <span class="desc" data-ja="湖上の氷精">Ice Fairy of the Lake</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_06-SD90_443Hz.wav" aria-label="Play"></button>
+                <span>06 2026/05/31</span>
+                <a href="MIDIs/th06_06-SD90_443Hz.mid" data-ja="【 上海紅茶館 ～ Chinese Tea 】">【 Shanghai Teahouse ～ Chinese
+                    Tea 】</a>
+                <span class="desc" data-ja="紅色の境 ～ Scarlet Land">Scarlet Border ～ Scarlet Land</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_07-SD90_428Hz.wav" aria-label="Play"></button>
+                <span>07 2026/05/31</span>
+                <a href="MIDIs/th06_07-SD90_428Hz.mid" data-ja="【 明治十七年の上海アリス 】">【 Shanghai Alice of Meiji 17 】</a>
+                <span class="desc" data-ja="華人小娘">Chinese Girl</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_08-SD90_452Hz.wav" aria-label="Play"></button>
+                <span>08 2026/05/31</span>
+                <a href="MIDIs/th06_08-SD90_452Hz.mid" data-ja="【 ヴワル魔法図書館 】">【 Voile, the Magic Library 】</a>
+                <span class="desc" data-ja="暗闇の館 ～ Save the mind">Mansion of Darkness ～ Save the Mind</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_09-SD90_452Hz.wav" aria-label="Play"></button>
+                <span>09 2026/05/31</span>
+                <a href="MIDIs/th06_09-SD90_452Hz.mid" data-ja="【 ラクトガール ～ 少女密室 】">【 Locked Girl ～ The Girl's Secret
+                    Room 】</a>
+                <span class="desc" data-ja="知識と日陰の少女">The Girl of Knowledge and Shade</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_10-SD90_452Hz.wav" aria-label="Play"></button>
+                <span>10 2026/06/02</span>
+                <a href="MIDIs/th06_10-SD90_452Hz.mid" data-ja="【 メイドと血の懐中時計 】">【 The Maid and the Pocket Watch of Blood
+                    】</a>
+                <span class="desc" data-ja="紅い月に瀟洒な従者を">An Elegant Servant for the Scarlet Moon</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_11-SD90_450Hz.wav" aria-label="Play"></button>
+                <span>11 2026/05/31</span>
+                <a href="MIDIs/th06_11-SD90_450Hz.mid" data-ja="【 月時計 ～ ルナ・ダイアル 】">【 Lunar Clock ～ Luna Dial 】</a>
+                <span class="desc" data-ja="紅魔館のメイド">Maid of the Scarlet Devil Mansion</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_12-SD90_446Hz.wav" aria-label="Play"></button>
+                <span>12 2026/05/31</span>
+                <a href="MIDIs/th06_12-SD90_446Hz.mid" data-ja="【 ツェペシュの幼き末裔 】">【 The Young Descendant of Tepes 】</a>
+                <span class="desc" data-ja="エリュシオンに血の雨">Rain of Blood over Elysium</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_13-SD90.wav" aria-label="Play"></button>
+                <span>13 2026/09/28</span>
+                <a href="MIDIs/th06_13-SD90_452Hz.mid" data-ja="【 亡き王女の為のセプテット 】">【 Septette for the Dead Princess 】</a>
+                <span class="desc" data-ja="永遠に紅い幼き月">The Eternally Young Scarlet Moon</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_14-SD90_440Hz.wav" aria-label="Play"></button>
+                <span>14 2026/05/31</span>
+                <a href="MIDIs/th06_14-SD90_440Hz.mid" data-ja="【 魔法少女達の百年祭 】">【 The Centennial Festival for Magical
+                    Girls 】</a>
+                <span class="desc" data-ja="東方紅魔狂 ～ Sister of Scarlet">Touhou Kouma"KYOU" ～ Sister of Scarlet</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_15-SD90.wav" aria-label="Play"></button>
+                <span>15 2026/09/28</span>
+                <a href="MIDIs/th06_15-SD90.mid" data-ja="【 U.N.オーエンは彼女なのか？ 】">【 U.N. Owen Was Her? 】</a>
+                <span class="desc" data-ja="悪魔の妹">Sister of the Devil</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_16-SD90_446Hz.wav" aria-label="Play"></button>
+                <span>16 2026/05/31</span>
+                <a href="MIDIs/th06_16-SD90_446Hz.mid" data-ja="【 紅より儚い永遠 】">【 An Eternity More Transient Than Scarlet
+                    】</a>
+                <span class="desc" data-ja="エンディング">Post-Game (Ending)</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+            <div class="track tall">
+                <button class="play" data-src="WAVS/th06_17-SD90_452Hz.wav" aria-label="Play"></button>
+                <span>17 2026/05/31</span>
+                <a href="MIDIs/th06_17-SD90_452Hz.mid" data-ja="【 紅楼 ～ Eastern Dream... 】">【 Crimson Tower ～ Eastern
+                    Dream 】</a>
+                <span class="desc" data-ja="スタッフロール">Post-Game (Staff Roll)</span>
+                <span class="hw"><img src="Images/sd90.png" alt="SD-90"></span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="divider thin" data-ja="☆ バグ報告・協力 ☆">☆ Bug reports and contributions ☆</h2>
+            <p class="friend"><a
+                    href="https://github.com/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/issues">GitHub
+                    Issues</a></p>
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
