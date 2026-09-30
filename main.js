@@ -140,3 +140,47 @@ var currentLang = localStorage.getItem("lang") || "en";
 
 	setLanguage(currentLang);
 });
+
+// LATEST COMMIT
+//
+//
+
+var latestBox = document.getElementById("latest-update");
+var latestDate = document.getElementById("latest-date");
+var latestMsg = document.getElementById("latest-msg");
+
+function showLatest(c) {
+	var d = new Date(c.commit.author.date);
+	var yyyy = d.getFullYear();
+	var mm = ("0" + (d.getMonth() + 1)).slice(-2);
+	var dd = ("0" + d.getDate()).slice(-2);
+
+	latestDate.textContent = yyyy + "/" + mm + "/" + dd + " -";
+	// Only the first line of the commit message
+	latestMsg.textContent = c.commit.message.split("\n")[0];
+	latestMsg.href = c.html_url;
+	latestBox.hidden = false;
+}
+
+// Cache for 10 min since the API allows only 60 requests
+var cached = null;
+try {
+	cached = JSON.parse(sessionStorage.getItem("latestCommit"));
+} catch (e) {}
+
+if (cached && Date.now() - cached.time < 600000) {
+	showLatest(cached.data);
+} else {
+	fetch("https://api.github.com/repos/SimTheNep/Embodiment-of-Scarlet-Devil-for-Edirol-SD-90-Native/commits?per_page=1")
+		.then(function (r) { return r.json(); })
+		.then(function (list) {
+			showLatest(list[0]);
+			sessionStorage.setItem(
+				"latestCommit",
+				JSON.stringify({ time: Date.now(), data: list[0] })
+			);
+		})
+		.catch(function () {
+			// On failure the note just stays hidden
+		});
+}

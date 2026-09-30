@@ -294,3 +294,16 @@ main>.section:first-child {
     opacity: 1;
 }
 
+/* LATEST UPDATE */
+.latest {
+    text-align: center;
+    margin: 6px 0 10px;
+    font-size: 14px;
+    color: #ffe45c;
+}
+
+.latest a,
+.latest a:visited {
+    color: #ffe45c;
+}
+
