@@ -299,11 +299,11 @@ main>.section:first-child {
     text-align: center;
     margin: 6px 0 10px;
     font-size: 14px;
-    color: #ffe45c;
+    color: var(--link)
 }
 
 .latest a,
 .latest a:visited {
-    color: #ffe45c;
+    color: var(--pressedlink)
 }
 
